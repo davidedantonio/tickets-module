@@ -1,5 +1,5 @@
 {
-  "name": "tickets-module",
+  "name": "@davide-demos/tickets-module",
   "version": "1.0.0",
   "description": "Tickets module demo",
   "main": "index.js",

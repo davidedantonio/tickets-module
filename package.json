@@ -1,0 +1,36 @@
+{
+  "name": "tickets-module",
+  "version": "1.0.0",
+  "description": "Tickets module demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidedantonio/tickets-module.git"
+  },
+  "keywords": [
+    "fastify",
+    "demo",
+    "nodejs"
+  ],
+  "author": "Davide D'Antonio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidedantonio/tickets-module/issues"
+  },
+  "homepage": "https://github.com/davidedantonio/tickets-module#readme",
+  "devDependencies": {
+    "fastify": "^1.12.1",
+    "mongo-clean": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "standard": "^12.0.1",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "fastify-jwt": "^0.5.0",
+    "fastify-mongodb": "^0.9.0",
+    "fastify-plugin": "^1.2.1"
+  }
+}

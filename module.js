@@ -36,7 +36,7 @@ module.exports = async function (app, opts) {
       username: req.user.username
     }, req.body))
 
-    const _id = data._id
+    const _id = data.ops[0]._id
 
     reply
       .code(201)
